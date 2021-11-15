@@ -41,7 +41,7 @@ aciertos = cartasTotales / 2;
       carta.setAttribute("class", "carta abajo");      
       contenedor.appendChild(carta);
       carta.innerHTML =
-        "<img class='img-frente' src='/imagenes/" +
+        "<img class='img-frente' src='imagenes/" +
         numerosCartas[key] +
         ".jpeg'/>";
     });
